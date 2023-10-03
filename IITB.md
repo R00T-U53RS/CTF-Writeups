@@ -1,12 +1,11 @@
-**Miscellaneous**
-
-_Find find !!_
+<h1>Miscellaneous</h1>
+<h3>Find find !!</h3>
 Converted the given QR into black and manually created the third square corner.
 Then use https://merri.cx/qrazybox/ to analyze and extract QR information.
 
 Flag is in the QR info.
 
-_Banarasi Paan_
+<h3>Banarasi Paan</h3>
 Given text file has brainfuck language which gives a link https://urlzs.com/FbD4S
 This link has a Binary Sequence in the form of letters which are varying from each other by a difference of 1 so it gave Coordinates of Paan Bhandar
 Mishra is the first name of the Paan Bhandar.
@@ -18,9 +17,9 @@ Text3(t:tyKZ)F
 reading from top to bottom ---> https://t.ly/SKocZ
 Used Cipher identifier on dcode.fr and it was binary to morse and you got the FLAG!
 
-**Web Exploitation**
+<h1>Web Exploitation</h1>
 
-_Spiderman Stuck in Web Part 1/3_
+<h3>Spiderman Stuck in Web Part 1/3</h3>
 invisible.txt has whitespace cipher which has username - gwenstacy and password - savedad65
 On Login we have a photo either you can quess that the photo is of Mumbattan from Earth 50101 if you have watched Spider-Man: Across the Spider-Verse (2023)
 or you can see sources in inspect which shows that on changing the url numbers we can traverse 3 directories.

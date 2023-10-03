@@ -156,11 +156,10 @@ But he didn't disclose where he studies, but I just have these information:
    `Very great here is tha hint:  
 Kzc0OTU2NDQ0NTQ0`
 - Base64 and here is a number I searched it on google I got a location of Avipark Mall again went to review and in the recent reviews Author has a review.  
-   `it's a cruel but 
-`beautiful`world,
-where secrets are`rotating` around us.
-
-this is a hint: @Unefuvg_1210`
+  it's a cruel but
+  `beautiful`world,
+  where secrets are`rotating` around us.
+  this is a hint: @Unefuvg_1210
 
 - At first I thought that the hint is the username but the it didn't work. So I focused on the text above the hint and saw `rotating`
 - Applied ROT13 and got Author's account `Harshit_1210`

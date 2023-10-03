@@ -1,13 +1,12 @@
-***Miscellaneous***
+**Miscellaneous**
 
-*Find find !!*
+_Find find !!_
 Converted the given QR into black and manually created the third square corner.
 Then use https://merri.cx/qrazybox/ to analyze and extract QR information.
 
 Flag is in the QR info.
 
-
-*Banarasi Paan*
+_Banarasi Paan_
 Given text file has brainfuck language which gives a link https://urlzs.com/FbD4S
 This link has a Binary Sequence in the form of letters which are varying from each other by a difference of 1 so it gave Coordinates of Paan Bhandar
 Mishra is the first name of the Paan Bhandar.
@@ -19,55 +18,55 @@ Text3(t:tyKZ)F
 reading from top to bottom ---> https://t.ly/SKocZ
 Used Cipher identifier on dcode.fr and it was binary to morse and you got the FLAG!
 
-***Web Exploitation***
+**Web Exploitation**
 
-*Spiderman Stuck in Web Part 1/3*
+_Spiderman Stuck in Web Part 1/3_
 invisible.txt has whitespace cipher which has username - gwenstacy and password - savedad65
 On Login we have a photo either you can quess that the photo is of Mumbattan from Earth 50101 if you have watched Spider-Man: Across the Spider-Verse (2023)
 or you can see sources in inspect which shows that on changing the url numbers we can traverse 3 directories.
 Now on this new page you have vision.java file upon reversing the code GOT the first flag.
 
-*Spiderman Stuck in Web Part 2/3*
+_Spiderman Stuck in Web Part 2/3_
 for this part http://iitbctf.centralindia.cloudapp.azure.com:8080/earth-50101 has a key and cipher text decode and get another username - miguelohara and password - mighty2099
 on this page you see a text file which has a base 32 ciphertext sequence decode and HERE is the second flag.
 
-*Spiderman Stuck in Web Part 2/3*
-Earth928.js Source file has  (Inspect) :
+_Spiderman Stuck in Web Part 2/3_
+Earth928.js Source file has (Inspect) :
 const message = 'usernameishobiebrownpasswordiscoolpunk138';
 user - hobiebrown
 pass - coolpunk138
-decode this sequence from the  Miles Morales : Chapters 1 and 2 by Jason Reynolds
+decode this sequence from the Miles Morales : Chapters 1 and 2 by Jason Reynolds
 Page No., Line No., Word No., Character No.
- 15 6 3 2
-    27 10 2 1
-    7 1 1 4
-    33 2 3 1
-    23 27 1 1
-    8 29 7 1
-    8 25 1 1
-    {27 4 1 1
-    13 4 8 2
-    29 1 3 3
-    17 6 2 6
-    21 4 9 1
-    25 2 1 2
-    21 23 7 1
-    10 11 9 6
-    5 18 2 4
-    19 1 4 3
-    18 3 1 1
-    18 6 10 3
-    1 10 9 6
-    17 2 1 4
-    27 5 8 1
-    11 6 7 1
-    32 25 8 7
-    18 2 2 1}
+15 6 3 2
+27 10 2 1
+7 1 1 4
+33 2 3 1
+23 27 1 1
+8 29 7 1
+8 25 1 1
+{27 4 1 1
+13 4 8 2
+29 1 3 3
+17 6 2 6
+21 4 9 1
+25 2 1 2
+21 23 7 1
+10 11 9 6
+5 18 2 4
+19 1 4 3
+18 3 1 1
+18 6 10 3
+1 10 9 6
+17 2 1 4
+27 5 8 1
+11 6 7 1
+32 25 8 7
+18 2 2 1}
 flag = iitbCTF{HeremiLeeiSprowleR}
 
-***Puzzle***
+**Puzzle**
 
-*Bahubali*
+_Bahubali_
 11 letter key combination
 Kuntal samrajya’s Flag printed on it
 MDCCXLVIII = 1748 = 1ta8

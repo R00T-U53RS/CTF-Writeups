@@ -9,6 +9,8 @@ Challenge link: https://harsh1tarora.pythonanywhere.com/
 
 #### Solution
 
+- Flag was `xCTF{m0r3_way_2_g0}`.
+
 # Forensics
 
 ### Ancient GIF (250 Points)
@@ -16,6 +18,8 @@ Challenge link: https://harsh1tarora.pythonanywhere.com/
 In the midst of a bustling town square, an enigmatic GIF played on a massive screen, captivating the crowd. Little did they know, it held the key to a hidden treasure.
 
 #### Solution
+
+- Flag is `xCTF{f0r3n51c5_1s_qr4zy!}`.
 
 ### Death Song (300 Points)
 
@@ -26,6 +30,8 @@ Link: [Google drive](https://drive.google.com/file/d/1FgVnISIXjyV9Rc7rm9phZY2hXD
 
 #### Solution
 
+- Flag was `xCTF{Lloyd_Chandler}`.
+
 # Steganography
 
 ### Inception (100 Points)
@@ -34,6 +40,8 @@ My friend got inspired by Inception movie and sent this strange image. Can you d
 what is this image about ?
 
 #### Solution
+
+- Flag was ` xCTF{f0t0_1n_4ud10_1n_f0t0}`.
 
 # Cryptography
 
@@ -97,11 +105,21 @@ Flag format: xCTF{SECRET_MESSAGE}
 - So upon decoding that morse code I got the `S3CR3T_M355AG3_F0R_YCF`.
 - Flag was `xCTF{S3CR3T_M355AG3_F0R_YCF}`.
 
+### Military Spy (100 Points)
+
+In the heart of the mysterious forest, a hidden vault guards ancient relics.
+
+#### Solution
+
+- Flag was `xCTF{HiddenVaultEntranceBehindTheFalls}`.
+
 ### Fire Accident (200 Points)
 
 In a remote village hidden within an ancient forest, a devastating fire reduced a 58 historic cottage to ruins, leaving behind a partially burned image and a cryptic message. Some of the villgeres do belive that this fire accident was because some villegers cheated while playing their anual game festival.Legends spoke of a long-guarded treasure within the cottage, now lost in the ashes.
 
 #### Solution
+
+- Flag was `xCTF{N3ver_Ch3at_pl@y_Fair!}`.
 
 # OSINT
 

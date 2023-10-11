@@ -9,6 +9,10 @@ Challenge link: https://harsh1tarora.pythonanywhere.com/
 
 #### Solution
 
+- Since we know the`admin` is the username
+- I tried submitting any password while Proxy was ON and there I saw how the input was sent.
+- So I tried this Command Injection `"OR'1'=='1'--` and it worked I was able to login.
+- used `help` to view available commands and then `flag` command to display the flag.
 - Flag was `xCTF{m0r3_way_2_g0}`.
 
 # Forensics
@@ -19,6 +23,10 @@ In the midst of a bustling town square, an enigmatic GIF played on a massive scr
 
 #### Solution
 
+- Extracted imagges from each frame using some website online then put QR pieces together.
+- Then put the third big sqaure in the QR which is important for extracting any informationo from the QR code.
+- Then I used this website to extract the QR code information - [qrazybox](https://merri.cx/qrazybox/).
+- This website has a tools tab which has extract QR info option which gave me a base64.
 - Flag is `xCTF{f0r3n51c5_1s_qr4zy!}`.
 
 ### Death Song (300 Points)
@@ -30,6 +38,15 @@ Link: [Google drive](https://drive.google.com/file/d/1FgVnISIXjyV9Rc7rm9phZY2hXD
 
 #### Solution
 
+- checked the file type after extracting the zip `file 2020JimmyWilson.E01`
+- OUTPUT
+
+```javascript
+2020JimmyWilson.E01: EWF/Expert Witness/EnCase image file format
+```
+
+- As these kind of files can be mounted like file systems so I made a directory and mounted the file at that directory `ewfmount 2020JimmyWilson.E01.E01 rawimage/`
+- This system had a user `Jimmy` which has a file containing lyrics of the song which i searched on google and got the writer's name from wikipedia
 - Flag was `xCTF{Lloyd_Chandler}`.
 
 # Steganography
@@ -41,7 +58,7 @@ what is this image about ?
 
 #### Solution
 
-- Flag was ` xCTF{f0t0_1n_4ud10_1n_f0t0}`.
+- Flag was `xCTF{f0t0_1n_4ud10_1n_f0t0}`.
 
 # Cryptography
 
@@ -97,7 +114,7 @@ Can you decipher the secret?
 
 My Indian friend is a spy in US military, he wants to send secret message to me.  
 Help me decrypt his message.  
-Flag format: xCTF{SECRET_MESSAGE}
+Flag format: `xCTF{SECRET_MESSAGE}`
 
 #### Solution
 
@@ -105,7 +122,7 @@ Flag format: xCTF{SECRET_MESSAGE}
 - So upon decoding that morse code I got the `S3CR3T_M355AG3_F0R_YCF`.
 - Flag was `xCTF{S3CR3T_M355AG3_F0R_YCF}`.
 
-### Military Spy (100 Points)
+### The Enigmatic Vault (100 Points)
 
 In the heart of the mysterious forest, a hidden vault guards ancient relics.
 
@@ -119,6 +136,7 @@ In a remote village hidden within an ancient forest, a devastating fire reduced 
 
 #### Solution
 
+- Just used the Play Fair Cipher and got the flag.
 - Flag was `xCTF{N3ver_Ch3at_pl@y_Fair!}`.
 
 # OSINT

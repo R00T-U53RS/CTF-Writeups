@@ -58,6 +58,10 @@ what is this image about ?
 
 #### Solution
 
+- Use Steghide on this file and extract.
+- I got a `varman.wav` file.
+- Use any Spectral Analyser and you will get the flag.
+- flag might not be clear try different combinations.
 - Flag was `xCTF{f0t0_1n_4ud10_1n_f0t0}`.
 
 # Cryptography
@@ -128,6 +132,8 @@ In the heart of the mysterious forest, a hidden vault guards ancient relics.
 
 #### Solution
 
+- Put this sequence in doc file inside cipher identifier on `dcode.fr`.
+- JSFuck Language [](![]+[]) --> Kenny Language (Southpark) --> Base 58 --> xCTF{HiddenVaultEntranceBehindTheFalls}
 - Flag was `xCTF{HiddenVaultEntranceBehindTheFalls}`.
 
 ### Fire Accident (200 Points)
